@@ -3,10 +3,14 @@ body{
   text-align: center;
 }
 
+a{
+  text-decoration: none;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(146, 36, 82);
     color: white;
     padding: 15px;
     font-size: 2em;
@@ -14,5 +18,10 @@ body{
   
   .nav a {
     color: white;
+    text-decoration: none;
+  }
+
+  .nav a:hover{
+    color: rgb(255, 194, 194);
     text-decoration: none;
   }

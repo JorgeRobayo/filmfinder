@@ -5,7 +5,7 @@ function Nav() {
   return (
     <div className='nav'>
         <Link to='/'>
-        <div>MAIN</div>
+        <div>ABOUT</div>
         </Link>
         
         <Link to='/movies'>
