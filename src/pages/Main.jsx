@@ -2,7 +2,16 @@ import React from 'react'
 
 function Main() {
   return (
-    <h1>Main Component</h1>
+
+    <div>
+      <h1>Looking for the perfect movie?</h1>
+      <p>Well... you are in the right place at the right moment,
+        you will be able to find any movie you could ever imagine.
+        Here you will find all the information related to any movie you are looking for,
+        feel free to take a look and have fun!!!
+      </p>
+    </div>
+
   )
 }
 

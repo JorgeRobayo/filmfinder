@@ -5,7 +5,7 @@ import Movies from './pages/Movies'
 import MoviesInfo from './pages/MoviesInfo'
 import Nav from './components/Nav'
 
-function app() {
+function App() {
   return (
     <div className='App'> 
     <Nav/>
@@ -13,11 +13,11 @@ function app() {
     <Routes>
         <Route path='/' element={<Main/>}></Route>
         <Route path='/movies' element={<Movies/>}></Route>
-        <Route path='/movies-info:symbol' element={<MoviesInfo/>}></Route>
+        <Route path='/movies-info/:imdbID' element={<MoviesInfo/>}></Route>
     </Routes>
 
     </div>
   )
 }
 
-export default app
+export default App
